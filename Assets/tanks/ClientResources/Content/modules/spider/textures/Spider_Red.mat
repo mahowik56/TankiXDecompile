@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Spider_Red
+  m_Shader: {fileID: 4800000, guid: 4447a651980630a43bd79c1d91967de8, type: 3}
+  m_ShaderKeywords: _COLORING_ON _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 2af85eec40491a342a9d77d47f28a8b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColoringBumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColoringMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FreezingMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FreezingNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: a33d0dfeee8426b489a3c3c12e14c1a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Masks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RepairTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SurfaceMap:
+        m_Texture: {fileID: 2800000, guid: 81f839545193f7e47903c8762faa2dae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WhiteFrostNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AdditiveFreezeEmissionIntensity: 1
+      _Alpha: 1
+      _BumpScale: 1
+      _BurningColoringMetallic: 0.2
+      _BurningEmissionIntensity: 20
+      _BurningMetallic: 0.5
+      _ColoringBumpMapDef: -1
+      _ColoringBumpScale: 1
+      _ColoringMapAlphaDef: -1
+      _ColoringMaskThreshold: -1
+      _ColoringSmoothness: 0
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EmissionIntensity: 30
+      _FreezeEmissionIntensity: 1
+      _FreezeMetallic: 1
+      _FreezeNormalScale: 1
+      _FreezeSmoothness: 1
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _MaxFreezeIntensity: 1
+      _Metallic: 0.643
+      _MetallicColoring: 0.23
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.005
+      _RepairAdditionalLengthExtension: 10
+      _RepairAlpha: 1
+      _RepairBackCoeff: 0.78
+      _RepairFadeAlphaRange: 0.92
+      _RepairFrontCoeff: 0
+      _RepairMipLevelMax: 4
+      _RepairMipLevelMaxDistance: 30
+      _RepairMipLevelMinDistance: 10
+      _RepairMovementDirection: 1
+      _RepairRotationAngle: 0
+      _SmoothnessStrength: 1.67
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Temperature: 0
+      _TotalBurntColoringTemperature: 0.5
+      _TotalWhiteFrostTemperature: -0.5
+      _UVSec: 0
+      _WhiteFrostNormalScale: 1
+      _ZWrite: 1
+    m_Colors:
+      _AdditiveFreezeEmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Coloring: {r: 0.61960787, g: 0, b: 0, a: 1}
+      _EmissionColor: {r: 1, g: 0, b: 0, a: 0}
+      _FreezeEmissionColor: {r: 1, g: 1, b: 1, a: 1}
+      _FreezeTransColor: {r: 1, g: 1, b: 1, a: 1}
+      _RepairCenter: {r: 0, g: -0.02930036, b: 0.60568, a: 0}
+      _RepairVolume: {r: 1.502808, g: 0.778753, b: 2.34775, a: 0}
+      _StrongBurningColor: {r: 0.50499994, g: 0.0072700004, b: 0, a: 1}
+      _WeakBurningColor: {r: 0.17399997, g: 0.17899996, b: 0.18499997, a: 1}

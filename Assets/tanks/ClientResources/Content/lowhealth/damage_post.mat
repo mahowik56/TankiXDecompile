@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: damage_post
+  m_Shader: {fileID: 4800000, guid: e0b29b5707457c64a9a53d5b4e5906d7, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TV_lines:
+        m_Texture: {fileID: 2800000, guid: a382ed495137b0c47a9670eaeb69d355, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _distortion:
+        m_Texture: {fileID: 2800000, guid: 15a27d1cf7181db408e3b003ce0e582a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _mask:
+        m_Texture: {fileID: 2800000, guid: dab7880aa8a7df24ab3d3bbafa4160fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _1: 0
+      _2: 0.15
+      _B_color_dist: -0.021
+      _G_color_dist: -0.03
+      _R_color_dist: -0.023
+      _TV_lines_speed: 1
+      _TV_speed: 1
+      _TV_speed_mask: 0.25
+      _TV_vis: 0.1
+      _amount: 0.764
+      _ani_speed: 0.14
+      _color_distort_size: 0.002
+      _color_distort_speed: 14.5
+      _damage_lvl: 0
+      _damage_lvl_1: 65
+      _damage_lvl_2: 68
+      _damage_lvl_3: 71
+      _damage_lvl_4: 75
+      _damage_lvl_start: 60
+      _damage_pixel_offset: 0.15
+      _damaged_pixel_mask: 1
+      _desaturate: 0.35
+      _dist_amount: 1
+      _fade_max: 0.72
+      _fade_min: 0.18
+      _frame_scroll_speed: 0
+      _glitch_frequency: 0.297
+      _horisont_speed: 0.33
+      _line_size: 40
+      _lines_blink: 0.112
+      _lines_blink_speed: 0.12
+      _mask_change_speed: 0.316
+      _mask_size: 1
+      _max_color_dist: 0.72
+      _min_color_dist: 0.18
+      _node_1061: 0
+      _node_2034: 0.03
+      _node_3135: -0.03
+      _node_3576: 0.3
+      _node_4542: -0.03
+      _node_4544: 0
+      _node_4570: 0
+      _node_5357: 100
+      _node_6578: 0
+      _node_7374: 0
+      _node_7415: 2.2
+      _node_7540: 0.002
+      _node_9234: 0
+      _node_9626: 0
+      _pixel_mask_ani_speed: 0.3
+      _pixel_size: 0.099
+      _scroll: 1
+      _scroll_speed: 0
+      _speed_color: 14.5
+      _speed_color_dist: 14.5
+      _split_mask_speed: 5
+      _wave_dis: 0.3
+      _wave_glitch: 0.3
+      _wave_glitch_size: 0.3
+    m_Colors:
+      _color_1: {r: 1, g: 0.1448276, b: 0, a: 1}
+      _color_2: {r: 1, g: 0, b: 0, a: 1}
+      _fade_color: {r: 1, g: 0.145098, b: 0, a: 1}

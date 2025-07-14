@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1376363593240227
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4147596482774087}
+  - component: {fileID: 114990371921422969}
+  - component: {fileID: 114797475404147163}
+  - component: {fileID: 114360599958340742}
+  m_Layer: 0
+  m_Name: PaleBlueRailgunShellPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4147596482774087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1376363593240227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114990371921422969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1376363593240227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a446cf440ef85c2c5a978c5bc34513e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1097524486626637, guid: 4da0deb8d9552ab4f9052333b1bdcfa7, type: 2}
+  tipPrefab: {fileID: 1759548414829963, guid: 28041ccdb1fdfb14aa9f7550d52d0172, type: 2}
+--- !u!114 &114797475404147163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1376363593240227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852e7b01a15ff704eec4ef2c2ba165f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1612408965089657, guid: 5329ea311ed8e324eaa3ef1b6242ef22, type: 2}
+--- !u!114 &114360599958340742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1376363593240227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15e71f5afbfaf9328e02698fa07d271, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  explosionAsset: {fileID: 1499008076340308, guid: 5cfa163a0f1b5944391f98e7af04c9f7, type: 2}
+  explosionDuration: 1
+  explosionOffset: 0.4
+  useForBlockedWeapon: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1376363593240227}
+  m_IsPrefabParent: 1

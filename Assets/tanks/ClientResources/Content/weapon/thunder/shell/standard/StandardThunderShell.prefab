@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1495611942395420
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4184015800607248}
+  - component: {fileID: 114761111393551402}
+  - component: {fileID: 114204601131868166}
+  - component: {fileID: 114001607799065231}
+  m_Layer: 0
+  m_Name: StandardThunderShell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4184015800607248
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1495611942395420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114761111393551402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1495611942395420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15e71f5afbfaf9328e02698fa07d271, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  explosionAsset: {fileID: 1547763973495951, guid: e37aa2b357b6e3245a2d74b574919c22, type: 2}
+  explosionDuration: 3
+  explosionOffset: 1
+  useForBlockedWeapon: 1
+--- !u!114 &114204601131868166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1495611942395420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8213caddf4a723dfba64a840e9aff263, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  muzzleFlashPrefab: {fileID: 1401532365952725, guid: 9e3eb1f0b4349454196da79068fc1b68, type: 2}
+  duration: 2.2
+--- !u!114 &114001607799065231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1495611942395420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7969c663e30a70c84d5f4e156d9d2f18, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tracer: {fileID: 198604555777754311, guid: b8290b68e4520ca408e47e1861e1086c, type: 2}
+  maxTime: 0.2
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1495611942395420}
+  m_IsPrefabParent: 1
